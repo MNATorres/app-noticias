@@ -8,8 +8,6 @@ function LogginButton(){
         <div className="logginButton">
             <button><BasicModal /></button>
             <button><Button>Dark</Button></button>
-            
-        
         </div>
     );
 }

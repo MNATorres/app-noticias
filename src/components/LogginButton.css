@@ -1,24 +1,23 @@
 .logginButton {
-position: fixed;
-right: 20px;
-width: 100%;
+position: fixed;    
 display: flex;
-flex-direction: row-reverse;
+width: 98%;
+justify-content: flex-end;
 z-index: 10;
-padding: 10px;
 }
 
 .logginButton button{
     transition: ease 0.5s;
     font-weight: bold;
     cursor: pointer;
-    margin-right: 20px;
     width: 100px;
     height: 40px;
     border-radius: 5px;
+    
 }
 
+
 .logginButton button:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(74, 150, 200);
     color: white;
 }

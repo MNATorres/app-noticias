@@ -17,3 +17,17 @@
 .header-title p{
     color: white;
 }
+
+@media (max-width: 700px){
+    .header{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header-title{
+        text-align: center;
+        align-items: center;
+        margin: 70px 0
+    }
+}
