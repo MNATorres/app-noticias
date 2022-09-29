@@ -6,6 +6,7 @@ import Noticia from './components/Noticia';
 import LogginButton from './components/LogginButton';
 
 
+
 type Info = {
 publishedAt: string;
 map(arg0: (item: any) => void): import("react").ReactNode;
@@ -40,7 +41,7 @@ function App() {
 
   return (
     <div className="App">
-      <LogginButton />
+        <LogginButton />
       <Header />
      {noticia && noticia.map((item, i) => {
       if(i % 6 === 0) valor = !valor
@@ -52,7 +53,6 @@ function App() {
       autor={item.author}
       descriptcion={item.description}
       url={item.url}
-
       />
      })}
     </div>
